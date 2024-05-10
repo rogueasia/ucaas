@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 33,
-    "bottomRow": 37,
+    "topRow": 38,
+    "bottomRow": 42,
     "tooltip": "Close",
     "type": "BUTTON_WIDGET",
     "hideCard": false,

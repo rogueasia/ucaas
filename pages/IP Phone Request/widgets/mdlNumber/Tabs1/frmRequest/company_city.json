@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
-    "topRow": 25,
+    "topRow": 17,
     "labelWidth": "18",
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
@@ -31,7 +31,7 @@
     "originalBottomRow": 36,
     "needsErrorInfo": false,
     "mobileBottomRow": 20,
-    "widgetName": "pic",
+    "widgetName": "company_city",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Input",
     "searchTags": [
@@ -40,7 +40,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 29,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
@@ -51,11 +51,11 @@
     "key": "w766wd9pk5",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 63,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-    "widgetId": "cemlrr69w3",
+    "widgetId": "pl3ejez6av",
     "minWidth": 450,
-    "label": "PIC:",
+    "label": "City:",
     "parentId": "jfibqy5w4z",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
@@ -65,6 +65,6 @@
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{tbl_allNumbers.triggeredRow.pic}}",
+    "defaultText": "{{tbl_allNumbers.triggeredRow.company_city}}",
     "minDynamicHeight": 4
 }
