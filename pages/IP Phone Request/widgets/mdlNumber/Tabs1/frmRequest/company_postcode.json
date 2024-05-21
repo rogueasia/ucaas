@@ -14,7 +14,7 @@
         {"key": "isDisabled"}
     ],
     "labelStyle": "",
-    "inputType": "NUMBER",
+    "inputType": "TEXT",
     "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
     "isRequired": true,
     "dynamicHeight": "FIXED",
@@ -66,6 +66,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "{{tbl_allNumbers.triggeredRow.company_postcode}}",
+    "defaultText": "{{ (tbl_allNumbers.triggeredRow.company_postcode.toString().length === 4) \n    ? '0' + tbl_allNumbers.triggeredRow.company_postcode.toString() \n    : tbl_allNumbers.triggeredRow.company_postcode.toString() }}",
     "minDynamicHeight": 4
 }

@@ -40,7 +40,7 @@
     "parentColumnSpace": 11.7392578125,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Central\",\n    \"code\": \"Central\"\n  },\n  {\n    \"name\": \"Northern\",\n    \"code\": \"Northern\"\n  },\n  {\n    \"name\": \"Southern\",\n    \"code\": \"Southern\"\n  },\n\t{\n    \"name\": \"Eastern\",\n    \"code\": \"Eastern\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Central\",\n    \"code\": \"Central\"\n  },\n  {\n    \"name\": \"Northern\",\n    \"code\": \"Northern\"\n  },\n  {\n    \"name\": \"Southern\",\n    \"code\": \"Southern\"\n  },\n\t{\n    \"name\": \"Eastern\",\n    \"code\": \"Eastern\"\n  },\n\t{\n    \"name\": \"Sabah\",\n    \"code\": \"Sabah\"\n  },\t{\n    \"name\": \"Sarawak\",\n    \"code\": \"Sarawak\"\n  }\n]",
     "key": "u8mwcq927c",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

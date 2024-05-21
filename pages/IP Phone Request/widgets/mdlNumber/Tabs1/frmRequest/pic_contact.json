@@ -14,7 +14,7 @@
         {"key": "isDisabled"}
     ],
     "labelStyle": "",
-    "inputType": "NUMBER",
+    "inputType": "TEXT",
     "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
     "isRequired": true,
     "dynamicHeight": "FIXED",
