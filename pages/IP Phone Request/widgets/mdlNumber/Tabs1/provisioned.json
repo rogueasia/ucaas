@@ -1,65 +1,81 @@
 {
-    "boxShadow": "none",
-    "dateFormat": "YYYY-MM-DD HH:mm",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
-    "topRow": 13,
-    "labelWidth": "17",
-    "type": "DATE_PICKER_WIDGET2",
-    "animateLoading": true,
-    "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultDate"},
-        {"key": "isDisabled"}
-    ],
-    "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "datePickerType": "DATE_PICKER",
-    "version": 2,
-    "tags": ["Inputs"],
-    "isLoading": false,
-    "timePrecision": "minute",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "closeOnSelection": true,
-    "needsErrorInfo": false,
-    "mobileBottomRow": 53,
-    "widgetName": "provisioned",
-    "minDate": "1920-12-31T18:30:00.000Z",
-    "dynamicPropertyPathList": [
-        {"key": "defaultDate"},
-        {"key": "isDisabled"}
-    ],
-    "displayName": "DatePicker",
-    "searchTags": ["calendar"],
-    "bottomRow": 17,
-    "shortcuts": false,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 24,
-    "parentColumnSpace": 6.15625,
-    "dynamicTriggerPathList": [],
-    "labelPosition": "Left",
-    "key": "595u1dkut1",
-    "labelTextSize": "0.875rem",
-    "defaultDate": "{{tbl_allNumbers.triggeredRow.provisioned_at}}",
-    "isDeprecated": false,
-    "rightColumn": 62,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
-    "widgetId": "7il42bujkz",
-    "minWidth": 450,
-    "label": "Provisioned:",
-    "parentId": "nj85j5moa9",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 46,
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 4,
-    "maxDynamicHeight": 9000,
-    "firstDayOfWeek": 0,
-    "maxDate": "2121-12-31T18:29:00.000Z",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{tbl_allNumbers.triggeredRow.provisioned_at}}",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "595u1dkut1",
+  "label": "Provisioned:",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "17",
+  "leftColumn": 2,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 53,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 46,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.15625,
+  "parentId": "nj85j5moa9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
+  "timePrecision": "minute",
+  "topRow": 13,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "7il42bujkz",
+  "widgetName": "provisioned"
 }

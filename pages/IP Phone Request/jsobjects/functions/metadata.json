@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "662e40c90ee05612c2fe816f_4314f8fa-e4de-46ed-bceb-8ca84b48f850",
+  "id": "IP Phone Request_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "IP Phone Request",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "IP Phone Request_functions",
-  "deleted": false,
-  "gitSyncId": "662e40c90ee05612c2fe816f_4314f8fa-e4de-46ed-bceb-8ca84b48f850"
+    "variables": []
+  }
 }

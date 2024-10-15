@@ -1,71 +1,33 @@
 {
+  "gitSyncId": "662e40c90ee05612c2fe816f_70b19588-6f58-4990-b913-872cec6f51e1",
   "unpublishedPage": {
-    "name": "IP Phone Request",
-    "slug": "ip-phone-request",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 770,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 770,
-          "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "IP Phone Request_getAllBatches",
-              "name": "getAllBatches",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "IP Phone Request_getAllNumbers",
-              "name": "getAllNumbers",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "IP Phone Request_getSupportTickets",
-              "name": "getSupportTickets",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "IP Phone Request",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "662e40c90ee05612c2fe816f_70b19588-6f58-4990-b913-872cec6f51e1"
+    "name": "IP Phone Request",
+    "slug": "ip-phone-request"
+  }
 }

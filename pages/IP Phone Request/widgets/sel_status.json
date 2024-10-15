@@ -1,62 +1,76 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Filter Status",
-    "topRow": 8,
-    "labelWidth": 5,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "",
-    "animateLoading": true,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "placeholderText": "Status",
-    "isDisabled": false,
-    "isRequired": false,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 15,
-    "mobileBottomRow": 19,
-    "widgetName": "sel_status",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 15,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 47,
-    "parentColumnSpace": 11.7392578125,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Available\",\n    \"code\": \"Available\"\n  },\n  {\n    \"name\": \"Reserved\",\n    \"code\": \"Reserved\"\n  },\n  {\n    \"name\": \"Provisioned\",\n    \"code\": \"Provisioned\"\n  }\n]",
-    "key": "u8mwcq927c",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 12,
-    "widgetId": "wzuckqf090",
-    "optionValue": "code",
-    "minWidth": 450,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 12,
-    "optionLabel": "name",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 8,
-    "mobileLeftColumn": 27,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{functions.getFilteredNumbers();}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "u8mwcq927c",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Filter Status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 27,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 12,
+  "onOptionChange": "{{functions.getFilteredNumbers();}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
+  "parentColumnSpace": 11.7392578125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Status",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 12,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Available\",\n    \"code\": \"Available\"\n  },\n  {\n    \"name\": \"Reserved\",\n    \"code\": \"Reserved\"\n  },\n  {\n    \"name\": \"Provisioned\",\n    \"code\": \"Provisioned\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wzuckqf090",
+  "widgetName": "sel_status"
 }

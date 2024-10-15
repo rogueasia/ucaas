@@ -1,66 +1,80 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
-    "labelText": "State",
-    "topRow": 21,
-    "labelWidth": "18",
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( tbl_allNumbers.triggeredRow.company_state))(company_state.options, company_state.serverSideFiltering) }}",
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultOptionValue"},
-        {"key": "isDisabled"}
-    ],
-    "placeholderText": "Select option",
-    "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "tags": [
-        "Suggested",
-        "Select"
-    ],
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "needsErrorInfo": false,
-    "mobileBottomRow": 24,
-    "widgetName": "company_state",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "isDisabled"}
-    ],
-    "displayName": "Select",
-    "searchTags": ["dropdown"],
-    "bottomRow": 25,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "mobileRightColumn": 20,
-    "parentColumnSpace": 5.12353515625,
-    "dynamicTriggerPathList": [],
-    "labelPosition": "Left",
-    "sourceData": "[\n  {\n    \"name\": \"Johor\",\n    \"code\": \"Johor\"\n  },\n  {\n    \"name\": \"Kedah\",\n    \"code\": \"Kedah\"\n  },\n  {\n    \"name\": \"Kelantan\",\n    \"code\": \"Kelantan\"\n  },\n  {\n    \"name\": \"Melaka\",\n    \"code\": \"Melaka\"\n  },\n  {\n    \"name\": \"N. Sembilan\",\n    \"code\": \"N. Sembilan\"\n  },\n  {\n    \"name\": \"Pahang\",\n    \"code\": \"Pahang\"\n  },\n  {\n    \"name\": \"P. Pinang\",\n    \"code\": \"P. Pinang\"\n  },\n  {\n    \"name\": \"Perak\",\n    \"code\": \"Perak\"\n  },\n  {\n    \"name\": \"Perlis\",\n    \"code\": \"Perlis\"\n  },\n  {\n    \"name\": \"Sabah\",\n    \"code\": \"Sabah\"\n  },\n  {\n    \"name\": \"Sarawak\",\n    \"code\": \"Sarawak\"\n  },\n  {\n    \"name\": \"Selangor\",\n    \"code\": \"Selangor\"\n  },\n  {\n    \"name\": \"Terengganu\",\n    \"code\": \"Terengganu\"\n  },\n  {\n    \"name\": \"Kuala Lumpur\",\n    \"code\": \"Kuala Lumpur\"\n  },\n  {\n    \"name\": \"Putrajaya\",\n    \"code\": \"Putrajaya\"\n  },\n  {\n    \"name\": \"Labuan\",\n    \"code\": \"Labuan\"\n  }\n]",
-    "key": "2kall8ro8b",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
-    "widgetId": "yza0v45hkv",
-    "optionValue": "code",
-    "minWidth": 450,
-    "parentId": "jfibqy5w4z",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "mobileTopRow": 17,
-    "optionLabel": "name",
-    "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( tbl_allNumbers.triggeredRow.company_state))(company_state.options, company_state.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "2kall8ro8b",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "State",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "18",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 5.12353515625,
+  "parentId": "jfibqy5w4z",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Johor\",\n    \"code\": \"Johor\"\n  },\n  {\n    \"name\": \"Kedah\",\n    \"code\": \"Kedah\"\n  },\n  {\n    \"name\": \"Kelantan\",\n    \"code\": \"Kelantan\"\n  },\n  {\n    \"name\": \"Melaka\",\n    \"code\": \"Melaka\"\n  },\n  {\n    \"name\": \"N. Sembilan\",\n    \"code\": \"N. Sembilan\"\n  },\n  {\n    \"name\": \"Pahang\",\n    \"code\": \"Pahang\"\n  },\n  {\n    \"name\": \"P. Pinang\",\n    \"code\": \"P. Pinang\"\n  },\n  {\n    \"name\": \"Perak\",\n    \"code\": \"Perak\"\n  },\n  {\n    \"name\": \"Perlis\",\n    \"code\": \"Perlis\"\n  },\n  {\n    \"name\": \"Sabah\",\n    \"code\": \"Sabah\"\n  },\n  {\n    \"name\": \"Sarawak\",\n    \"code\": \"Sarawak\"\n  },\n  {\n    \"name\": \"Selangor\",\n    \"code\": \"Selangor\"\n  },\n  {\n    \"name\": \"Terengganu\",\n    \"code\": \"Terengganu\"\n  },\n  {\n    \"name\": \"Kuala Lumpur\",\n    \"code\": \"Kuala Lumpur\"\n  },\n  {\n    \"name\": \"Putrajaya\",\n    \"code\": \"Putrajaya\"\n  },\n  {\n    \"name\": \"Labuan\",\n    \"code\": \"Labuan\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 21,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "yza0v45hkv",
+  "widgetName": "company_state"
 }
