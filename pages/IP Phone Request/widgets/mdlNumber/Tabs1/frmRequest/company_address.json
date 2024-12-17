@@ -3,7 +3,8 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 17,
+  "bottomRowBeforeCollapse": 17,
   "boxShadow": "none",
   "defaultText": "{{tbl_allNumbers.triggeredRow.company_address}}",
   "displayName": "Input",
@@ -19,12 +20,18 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -33,9 +40,9 @@
   "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
   "inputType": "MULTI_LINE_TEXT",
   "isDeprecated": false,
-  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
+  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\" || frmRequest.data.type == \"FWA\"}}",
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": "{{ frmRequest.data.type == \"FTTO\"}}",
   "isVisible": true,
   "key": "w766wd9pk5",
   "label": "Address:",
@@ -53,6 +60,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
+  "originalBottomRow": 17,
+  "originalTopRow": 8,
   "parentColumnSpace": 6.5625,
   "parentId": "jfibqy5w4z",
   "parentRowSpace": 10,
@@ -73,7 +82,8 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 4,
+  "topRow": 8,
+  "topRowBeforeCollapse": 8,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "mtno4mlxiy",

@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{\n    {\n        rowIndex: frmRequest.data.rowIndex, // includes rowIndex key\n\t\t\t\t\"status\": \"Reserved\", \n        \"company\": frmRequest.data.company, \n        \"company_address\": frmRequest.data.company_address, \n        \"company_postcode\": frmRequest.data.company_postcode, \n        \"company_state\": frmRequest.data.company_state, \n\t\t\t  \"company_city\": frmRequest.data.company_city, \n        \"pic\": frmRequest.data.pic, \n\t\t\t  \"pic_contact\": frmRequest.data.pic_contact,\n\t\t\t\t\"requested_at\": moment().format('YYYY-MM-DD, HH:mm'),\n\t\t\t\t\"batch\": \"BIZ\"+moment().year()+\"-\"+moment().week(),\n\t\t\t\t\"requester\": appsmith.user.email\n\t\t}\n}}"
+          "data": "{{\n    {\n        rowIndex: frmRequest.data.rowIndex, // includes rowIndex key\n\t\t\t\t\"status\": \"Reserved\", \n        \"company\": frmRequest.data.company, \n        \"company_address\": frmRequest.data.company_address, \n        \"company_postcode\": frmRequest.data.company_postcode, \n        \"company_state\": frmRequest.data.company_state, \n\t\t\t  \"company_city\": frmRequest.data.company_city, \n\t\t\t\t\"type\": frmRequest.data.type, \n\t\t\t\t\"email\": frmRequest.data.email, \n        \"pic\": frmRequest.data.pic, \n\t\t\t  \"pic_contact\": frmRequest.data.pic_contact,\n\t\t\t\t\"requested_at\": moment().format('YYYY-MM-DD, HH:mm'),\n\t\t\t\t\"batch\": \"BIZ\"+moment().year()+\"-\"+moment().week(),\n\t\t\t\t\"requester\": appsmith.user.email\n\t\t}\n}}"
         },
         "sheetName": {
           "data": "numbers"

@@ -3,7 +3,8 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 21,
+  "bottomRowBeforeCollapse": 21,
   "boxShadow": "none",
   "defaultText": "{{ (tbl_allNumbers.triggeredRow.company_postcode.toString().length === 4) \n    ? '0' + tbl_allNumbers.triggeredRow.company_postcode.toString() \n    : tbl_allNumbers.triggeredRow.company_postcode.toString() }}",
   "displayName": "Input",
@@ -19,12 +20,18 @@
     },
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isRequired"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -33,9 +40,9 @@
   "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
   "inputType": "TEXT",
   "isDeprecated": false,
-  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\"}}",
+  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\" || frmRequest.data.type == \"FWA\"}}",
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": "{{ frmRequest.data.type == \"FTTO\"}}",
   "isVisible": true,
   "key": "w766wd9pk5",
   "label": "Postcode:",
@@ -53,8 +60,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "originalBottomRow": 28,
-  "originalTopRow": 24,
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
   "parentColumnSpace": 6.5625,
   "parentId": "jfibqy5w4z",
   "parentRowSpace": 10,
@@ -75,7 +82,8 @@
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 13,
+  "topRow": 17,
+  "topRowBeforeCollapse": 17,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "gcclpurxcc",

@@ -63,7 +63,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Central\",\n    \"code\": \"Central\"\n  },\n  {\n    \"name\": \"Northern\",\n    \"code\": \"Northern\"\n  },\n  {\n    \"name\": \"Southern\",\n    \"code\": \"Southern\"\n  },\n\t{\n    \"name\": \"Eastern\",\n    \"code\": \"Eastern\"\n  },\n\t{\n    \"name\": \"Sabah\",\n    \"code\": \"Sabah\"\n  },\t{\n    \"name\": \"Sarawak\",\n    \"code\": \"Sarawak\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Central\",\n    \"code\": \"Central\"\n  },\n  {\n    \"name\": \"Northern\",\n    \"code\": \"Northern\"\n  },\n  {\n    \"name\": \"Southern\",\n    \"code\": \"Southern\"\n  },\n\t{\n    \"name\": \"Eastern\",\n    \"code\": \"Eastern\"\n  },\n\t{\n    \"name\": \"Sabah\",\n    \"code\": \"Sabah\"\n  },\t\n\t{\n    \"name\": \"Sarawak\",\n    \"code\": \"Sarawak\"\n  },\n\t{\n    \"name\": \"Testing\",\n    \"code\": \"Testing\"\n  }\n]",
   "tags": [
     "Suggested",
     "Select"

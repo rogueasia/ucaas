@@ -3,10 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
-  "bottomRowBeforeCollapse": 25,
+  "bottomRow": 41,
   "boxShadow": "none",
-  "defaultText": "{{tbl_allNumbers.triggeredRow.company_city}}",
+  "defaultText": "{{tbl_allNumbers.triggeredRow.email}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -40,12 +39,12 @@
   "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
   "inputType": "TEXT",
   "isDeprecated": false,
-  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\" || frmRequest.data.type == \"FWA\"}}",
+  "isDisabled": "{{tbl_allNumbers.triggeredRow.status != \"Available\" || frmRequest.data.type == \"FTTO\"}}",
   "isLoading": false,
-  "isRequired": "{{ frmRequest.data.type == \"FTTO\"}}",
+  "isRequired": "{{ frmRequest.data.type == \"FWA\"}}",
   "isVisible": true,
   "key": "w766wd9pk5",
-  "label": "City:",
+  "label": "Email:",
   "labelAlignment": "left",
   "labelPosition": "Left",
   "labelStyle": "",
@@ -60,8 +59,8 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "originalBottomRow": 25,
-  "originalTopRow": 21,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "parentColumnSpace": 6.5625,
   "parentId": "jfibqy5w4z",
   "parentRowSpace": 10,
@@ -75,16 +74,16 @@
     "number",
     "textarea"
   ],
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tags": [
     "Suggested",
     "Inputs"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 21,
-  "topRowBeforeCollapse": 21,
+  "topRow": 37,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "pl3ejez6av",
-  "widgetName": "company_city"
+  "widgetId": "ylceia3gcq",
+  "widgetName": "email"
 }
